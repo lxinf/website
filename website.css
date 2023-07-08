@@ -1,6 +1,5 @@
 //navagation bar//
 
-
 .navbar {
   margin-bottom: 20px;
 }
@@ -135,7 +134,7 @@
     font-size: 1.2rem;
     line-height: 1.4;
     padding: 20px 50px ;
-    background-image: url('photos/greece1.jpg');
+    background-image: url('photos/greece3.jpg');
   background-repeat: no-repeat;
   }
 
@@ -162,8 +161,8 @@
 .px-3 {
   padding-right: 1rem;
   padding-left: 1rem;
-  padding-top: 30%;
-  padding-bottom: 50%;
+  padding-top: 10%;
+  padding-bottom: 75%;
 }
 *, ::after, ::before {
   box-sizing: border-box;
@@ -181,4 +180,15 @@ p {
 main {
   display: block;
   background-color: white;
+}
+
+h3.align-center.text-center {
+  font-size: 5rem;
+  color: white;  
+}
+
+footer {
+  background-color: white;
+  opacity: 75%;
+}
 
