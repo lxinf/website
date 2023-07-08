@@ -1,13 +1,12 @@
-//nav bar//
-body {
-  padding-bottom: 20px;
-}
+//navagation bar//
+
 
 .navbar {
   margin-bottom: 20px;
 }
 
 //grid system container//
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -84,7 +83,7 @@ body {
     padding-top: .75rem;
     padding-bottom: .75rem;
     background-color: white;
-    border: 1px solid rgba(112.520718, 44.062154, 249.437846, .3);
+    
   }
   
   .themed-container {
@@ -126,6 +125,7 @@ body {
     margin: auto;
     background: currentcolor;
   }
+  
 
   body {
     font-style: normal;
@@ -134,4 +134,51 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     line-height: 1.4;
+    padding: 20px 50px ;
+    background-image: url('photos/greece1.jpg');
+  background-repeat: no-repeat;
   }
+
+  //landing page
+
+  /*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+.cover-container {
+  max-width: 42em;
+}
+
+.px-3 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 30%;
+  padding-bottom: 50%;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.lead {
+  font-size: 2rem;
+  font-weight: 300;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+main {
+  display: block;
+  background-color: white;
+
