@@ -6,15 +6,6 @@
  
 }
 
-.nav-link {
-  hover-color:#6BB5F9
-}
-
-&:hover,
-&:focus {
-  color: var(--#{$prefix}nav-link-hover-color);
-  text-decoration: if($link-hover-decoration == underline, none, null);
-}
 
 
 .nav-scroller {
@@ -105,6 +96,10 @@
     margin-bottom: 1.5rem;
     background-color: rgba(112.520718, 44.062154, 249.437846, .15);
     border: 1px solid rgba(112.520718, 44.062154, 249.437846, .3);
+  }
+
+  a{
+    text-decoration: none !important;
   }
 
   //gallery//
