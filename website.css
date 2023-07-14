@@ -47,12 +47,16 @@
   color: #f5d742
 
 }
+.navbar-toggler{
+  color:#12375a!important;
+  background-color:whitesmoke!important;
 
+}
 
-
-
-
-
+.navbar-toggler:hover{
+  background-color:#12375a !important;
+  color: #f5d742 !important;
+}
 
 
 
